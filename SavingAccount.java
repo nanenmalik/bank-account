@@ -27,46 +27,4 @@
     }
 }
 
-   /*  private double annualInterest;
-   // annualInterest = 0.25;
-
-    public SavingAccount( double balance, double annualInterest) {
-        super( balance);
-        this.annualInterest = annualInterest;
-    }
-    
-    public void setAnnualInterest( double annualInterest) {
-        this.annualInterest = annualInterest;
-        annualInterest = 0.25;
-    }
-
-     public double getAnnualInterest() {
-        return annualInterest;
-    }
-
-    public double MonthlyInterestDeposit() {
-        double MonthlyInterestDeposit = (getBalance() * annualInterest) / 12;
-        return MonthlyInterestDeposit;
-    }
-
-
-    @Override
-    public boolean withdraw(double amount) {
-        if (amount > getBalance()) {
-            System.out.println("Insufficient funds");
-            return false;
-        } else {
-            setBalance(getBalance() - amount);
-            return true;
-        }
-    }
-    
-
-    @Override
-    public String toString() {
-        return "SavingAccount{" +
-                "annualInterest=" + annualInterest +
-                '}';
-    }
-}*/
-
+ 
